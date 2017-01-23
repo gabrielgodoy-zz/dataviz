@@ -1,6 +1,6 @@
 ## Dataviz
 
-dataviz.surge.sh
+[dataviz.surge.sh](http://dataviz.surge.sh)
 
 Experimentations with D3, snap.svg and green sock
 
