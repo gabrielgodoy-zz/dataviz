@@ -1,0 +1,35 @@
+:global
+  svg
+    margin: 0 auto
+    display: block
+
+  .main-axis-x
+    path
+      display: none
+
+  .main-axis
+    line,
+    path
+      stroke: lighten(asphalt, 20)
+
+    text
+      fill lighten(asphalt, 20)
+
+  .graph-title
+    color lighten(asphalt, 20)
+    text-align: center
+    font-family: Helvetica
+    margin-bottom: 20px
+
+  .bar-text
+    font-family: Helvetica
+    fill moneyYellowDark
+    font-size 12px
+
+  rect
+    position: relative
+    fill moneyGreenLight
+    transition fill .3s
+
+    &:hover
+      fill: moneyGreenDark
