@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Alice",
+    "math": 37,
+    "science": 62,
+    "language": 54
+  },
+  {
+    "name": "Billy",
+    "math": null,
+    "science": 34,
+    "language": 85
+  },
+  {
+    "name": "Cindy",
+    "math": 86,
+    "science": 48,
+    "language": null
+  },
+  {
+    "name": "David",
+    "math": 44,
+    "science": null,
+    "language": 65
+  },
+  {
+    "name": "Emily",
+    "math": 59,
+    "science": 73,
+    "language": 29
+  }
+]
