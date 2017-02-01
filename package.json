@@ -9,7 +9,7 @@
     "test:watch": "npm run test -- --watch",
     "copy": "npm run webpack && cp ./{CNAME,favicon.png} ./dist",
     "build": "npm-run-all --parallel clean-dist webpack copy",
-    "deploy": "npm run build && surge ./",
+    "deploy": "npm run build && surge ./dist",
     "webpack": "webpack --config 'webpack.config.prod.babel.js'",
     "webDevServer": "webpack-dev-server --progress --hot --inline --colors --port 3000 --config 'webpack.config.dev.babel.js'",
     "clean-dist": "npm run remove-dist && mkdir ./dist",
